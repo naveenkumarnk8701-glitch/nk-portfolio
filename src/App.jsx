@@ -7,7 +7,8 @@ function App() {
       
       <section className="hero">
         <h1>Naveenkumar G</h1>
-        <h2> <Typewriter
+      <h2>
+  <Typewriter
     words={[
       "Frontend Developer",
       "React JS Developer",
@@ -20,7 +21,8 @@ function App() {
     deleteSpeed={50}
     delaySpeed={1500}
   />
-  </h2>
+</h2>
+
         <p>
           Frontend Developer with strong foundation in React.js and modern JavaScript.
           Passionate about building clean, scalable, and responsive web applications.
