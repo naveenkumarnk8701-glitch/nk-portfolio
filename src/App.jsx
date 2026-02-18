@@ -1,4 +1,5 @@
 import "./App.css";
+import { Typewriter } from "react-simple-typewriter";
 
 function App() {
   return (
@@ -6,7 +7,20 @@ function App() {
       
       <section className="hero">
         <h1>Naveenkumar G</h1>
-        <h2>Frontend Developer | React JS</h2>
+        <h2> <Typewriter
+    words={[
+      "Frontend Developer",
+      "React JS Developer",
+      "JavaScript Enthusiast",
+    ]}
+    loop={true}
+    cursor
+    cursorStyle="|"
+    typeSpeed={70}
+    deleteSpeed={50}
+    delaySpeed={1500}
+  />
+  </h2>
         <p>
           Frontend Developer with strong foundation in React.js and modern JavaScript.
           Passionate about building clean, scalable, and responsive web applications.
