@@ -64,7 +64,7 @@ Currently seeking entry-level Frontend Developer opportunities.
 >
   Visit My LinkedIn
 </a>
-<a href="/Naveenkumar_Resume.pdf" className="btn" download>
+<a href="/Naveen Kumar.pdf" className="btn" download>
   Download Resume
 </a>
 
