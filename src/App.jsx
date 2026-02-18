@@ -3,20 +3,38 @@ import "./App.css";
 function App() {
   return (
     <div className="container">
-      <h1>Naveenkumar G</h1>
-      <h2>Frontend Developer | React JS</h2>
-
-      <section>
-        <h3>About Me</h3>
+      
+      <section className="hero">
+        <h1>Naveenkumar G</h1>
+        <h2>Frontend Developer | React JS</h2>
         <p>
-         <p>
-Frontend Developer with strong foundation in React.js and modern JavaScript.
-BCA graduate with hands-on experience building responsive web applications.
-Passionate about creating clean UI and scalable solutions.
-Currently seeking entry-level Frontend Developer opportunities.
-</p>
-
+          Frontend Developer with strong foundation in React.js and modern JavaScript.
+          Passionate about building clean, scalable, and responsive web applications.
         </p>
+
+        <div className="buttons">
+          <a
+            href="https://github.com/naveenkumarnk8701-glitch"
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://linkedin.com/in/YOUR-LINKEDIN-ID"
+            target="_blank"
+            rel="noreferrer"
+            className="btn secondary"
+          >
+            LinkedIn
+          </a>
+
+          <a href="/Naveenkumar_Resume.pdf" className="btn" download>
+            Download Resume
+          </a>
+        </div>
       </section>
 
       <section>
@@ -43,31 +61,6 @@ Currently seeking entry-level Frontend Developer opportunities.
             <p>Restaurant website with animations and form validation.</p>
           </div>
         </div>
-      </section>
-
-      <section>
-        <h3>Contact</h3>
-        <p>Email: naveenkumarnk8701@gmail.com</p>
-        <a 
-          href="https://github.com/naveenkumarnk8701-glitch"
-          target="_blank" 
-          rel="noreferrer"
-          className="btn"
-        >
-          Visit My GitHub
-        </a>
-        <a 
-  href="https://linkedin.com/in/YOUR-LINKEDIN-ID"
-  target="_blank"
-  rel="noreferrer"
-  className="btn"
->
-  Visit My LinkedIn
-</a>
-<a href="/Naveenkumar_Resume.pdf" className="btn" download>
-  Download Resume
-</a>
-
       </section>
 
       <footer>
