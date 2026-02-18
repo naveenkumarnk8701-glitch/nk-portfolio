@@ -9,8 +9,13 @@ function App() {
       <section>
         <h3>About Me</h3>
         <p>
-          BCA Graduate with 1.5 years BPO experience.
-          Passionate about building responsive and user-friendly web applications.
+         <p>
+Frontend Developer with strong foundation in React.js and modern JavaScript.
+BCA graduate with hands-on experience building responsive web applications.
+Passionate about creating clean UI and scalable solutions.
+Currently seeking entry-level Frontend Developer opportunities.
+</p>
+
         </p>
       </section>
 
@@ -44,8 +49,9 @@ function App() {
         <h3>Contact</h3>
         <p>Email: naveenkumarnk8701@gmail.com</p>
         <a 
-          href="https://github.com/" 
-          target="_blank" 
+          href="https://github.com/naveenkumarnk8701-glitch"
+
+         target="_blank" 
           rel="noreferrer"
           className="btn"
         >
