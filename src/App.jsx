@@ -50,13 +50,24 @@ Currently seeking entry-level Frontend Developer opportunities.
         <p>Email: naveenkumarnk8701@gmail.com</p>
         <a 
           href="https://github.com/naveenkumarnk8701-glitch"
-
-         target="_blank" 
+          target="_blank" 
           rel="noreferrer"
           className="btn"
         >
           Visit My GitHub
         </a>
+        <a 
+  href="https://linkedin.com/in/YOUR-LINKEDIN-ID"
+  target="_blank"
+  rel="noreferrer"
+  className="btn"
+>
+  Visit My LinkedIn
+</a>
+<a href="/Naveenkumar_Resume.pdf" className="btn" download>
+  Download Resume
+</a>
+
       </section>
 
       <footer>
