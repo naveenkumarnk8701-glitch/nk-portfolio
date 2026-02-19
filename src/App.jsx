@@ -1,11 +1,33 @@
-import "./App.css";
+import AOS from "aos";
+AOS.init({
+  duration: 1000,
+  once: true,
+  offset: 100,
+});
+AOS.init({
+  duration: 1000,
+  once: true,
+  offset: 100,
+});
+
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import { Typewriter } from "react-simple-typewriter";
+import "./App.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <div className="container">
       
-      <section className="hero">
+      <section className="hero" data-aos="fade-up">
+
         <h1>Naveenkumar G</h1>
       <h2>
   <Typewriter
@@ -53,8 +75,10 @@ function App() {
         </div>
       </section>
 
-      <section>
-        <h3>Skills</h3>
+      <section data-aos="fade-right">
+
+<section data-aos="fade-right">
+       <h3>Skills</h3>
         <div className="skills">
           <span>HTML</span>
           <span>CSS</span>
@@ -63,8 +87,9 @@ function App() {
           <span>Git</span>
         </div>
       </section>
+     
+      <section data-aos="fade-left">
 
-      <section>
         <h3>Projects</h3>
         <div className="projects">
           <div className="card">
@@ -79,7 +104,8 @@ function App() {
         </div>
       </section>
 
-      <footer>
+     <footer data-aos="fade-up">
+
         <p>© 2026 Naveenkumar G</p>
       </footer>
     </div>
